@@ -4,6 +4,10 @@ Tool to help with the `.cargo/config` `target.$triple.runner` field.
 
 Primarily intended for use with `cargo-sysroot` and `cargo-image`.
 
+## Install
+
+Run `cargo install cargo-runner`.
+
 ## Usage
 
 In `.cargo/config`
