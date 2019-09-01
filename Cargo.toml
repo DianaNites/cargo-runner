@@ -4,9 +4,27 @@ version = "0.1.0"
 authors = ["Diana"]
 edition = "2018"
 
+readme = "README.md"
+repository = "https://github.com/DianaNites/cargo-runner"
+description = "Tool to help with the `.cargo/config` `target.$triple.runner` field."
+license = "MIT OR Apache-2.0"
+keywords = [
+    "runner",
+    "sysroot",
+    "no_std",
+    "cross",
+    "compilation",
+]
+categories = [
+    "development-tools",
+    "development-tools::cargo-plugins",
+]
 
 [dependencies]
 structopt = "0.3.0"
 serde = { version = "1.0.99", features = ["derive"] }
 cargo_metadata = "0.8.2"
 serde_json = "1.0.40"
+
+[badges]
+maintenance = { status = "as-is" }
