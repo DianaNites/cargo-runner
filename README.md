@@ -20,7 +20,7 @@ runner = "cargo runner"
 In `Cargo.toml`
 
 ```toml
-[package.metadata.cargo-runner]
+[package.metadata.cargo_runner]
 # The string `$TARGET_FILE` will be replaced with the path from cargo.
 command = [
     "qemu-system-x86_64",
